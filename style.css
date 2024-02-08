@@ -41,6 +41,7 @@ body {
   color: #111111;
 }
 .wrapper {
+  padding: 35px;
   background: rgb(73, 198, 255);
   background: radial-gradient(
     circle,
