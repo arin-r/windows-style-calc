@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="calculator">
+    <div class="result-container">
+      <input type="text" class="result-container-primary" value="0" readonly>
+    </div>
+    <div class="buttons-container">
+      <button class="calc-btn" data-operator="percent">%</button>
+      <button class="calc-btn" data-option="clearEntry">CE</button>
+      <button class="calc-btn" data-option="clear">C</button>
+      <button class="calc-btn backspace-key" data-option="undo">DEL</button>
+      
+      <button class="calc-btn" data-operator="fraction">&sup1;/ ₓ</button>
+      <button class="calc-btn" data-operator="pow">x&sup2;</button>
+      <button class="calc-btn" data-operator="sqrt">&radic;</button>
+      <button class="calc-btn" data-operator="divide">/</button>
+
+      <button class="calc-btn number-keys" data-number>7</button>
+      <button class="calc-btn number-keys" data-number>8</button>
+      <button class="calc-btn number-keys" data-number>9</button>
+      <button class="calc-btn" data-operator="multiply">*</button>
+      
+      <button class="calc-btn number-keys" data-number>4</button>
+      <button class="calc-btn number-keys" data-number>5</button>
+      <button class="calc-btn number-keys" data-number>6</button>
+      <button class="calc-btn" data-operator="minus">-</button>
+
+      <button class="calc-btn number-keys" data-number>1</button>
+      <button class="calc-btn number-keys" data-number>2</button>
+      <button class="calc-btn number-keys" data-number>3</button>
+      <button class="calc-btn" data-operator="plus">+</button>
+
+      <button class="calc-btn number-keys" data-option="reverse">+/-</button>
+      <button class="calc-btn number-keys" data-number>0</button>
+      <button class="calc-btn number-keys" data-option="dot">.</button>
+      <button class="calc-btn equal-to-key" data-operator="equal">=</button>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</html>
